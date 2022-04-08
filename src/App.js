@@ -4,6 +4,9 @@ import Navbar from "./components/Navbar";
 import { Home, Page404} from "./Pages";
 
 class App extends Component {
+  // componentDidMount() {
+  //     this.props.hideLoader();
+  // }
   render() {
     return (
       <React.Fragment>

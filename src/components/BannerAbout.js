@@ -59,7 +59,12 @@ class bannerAbout extends Component {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <FaBroadcastTower color="red" size={500} />
+                            <div>
+                                <img
+                                style={{width: "30vmax"}}
+                                src={require("../image/citytower.png")} />
+                            </div>
+                            {/* <FaBroadcastTower color="red" size={500} /> */}
                         </div>
                     </div>
                 </div>
